@@ -32,7 +32,7 @@ class FeedManager {
     }
     
     func showSuccessHUD(thisView :UIView) {
-       // self.hideHUD()
+        self.hideHUD()
         hud.indicatorView = JGProgressHUDSuccessIndicatorView.init()
         hud.textLabel.text = Constants.success 
         hud.show(in: thisView)
